@@ -1,0 +1,21 @@
+h1 {
+  margin: 0 0 -23px 663px;
+}
+
+body:before {
+  display: block;
+  content: "";
+  border-bottom: 2px solid black;
+  width: 46%;
+  margin-top: 15px;
+  float: right;
+
+}
+
+body:after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid black;
+  width: 46%;
+}
+
