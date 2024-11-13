@@ -1,0 +1,38 @@
+div {
+	
+	font-size: 28px;
+	font-weight: bold;
+  	display: flex;
+  	position: relative;
+  	top: 200px;
+  	left: 200px;
+ 	width: 80px;
+ 	height: 80px;
+ 	border:2px solid;
+  	border-radius:80%;
+  	align-items: center;
+  	justify-content: center;
+  	background: white;
+}
+
+div:after{
+  content:'';
+  position: absolute;
+  z-index: -1;
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  
+}
+
+div:before{
+  content:'';
+  position: absolute;
+  z-index: -1;
+  background: blue;
+  width: 350px;
+  height: 350px;
+  border-radius: 140%;
+  
+}

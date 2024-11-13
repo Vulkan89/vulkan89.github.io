@@ -1,0 +1,18 @@
+div {
+	
+	font-size: 28px;
+	font-weight: bold;
+  	display: flex;
+  	position: relative;
+  	top: 200px;
+  	left: 200px;
+ 	width: 80px;
+ 	height: 80px;
+ 	border:2px solid;
+  	border-radius:80%;
+  	align-items: center;
+  	justify-content: center;
+  	background: white;
+    box-shadow: 0 0 0 60px yellow,0 0 0 140px blue;
+}
+
