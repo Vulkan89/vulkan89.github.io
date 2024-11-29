@@ -1,0 +1,173 @@
+ * {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	
+	min-height: 100vh;
+	font-family: 'Arial', serif;
+}
+h1{
+   	font-weight: normal;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+img{
+	max-width: 100%;
+}
+
+.card-img{
+text-align: center;
+
+}
+
+.old{
+	display: inline-block;
+	min-height: 16px;
+	min-width: 1px;
+	text-decoration: line-through;
+	font-size: 14px;
+}
+.new_1{
+	display: inline-block;
+	min-height: 16px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.new_2{
+	display: inline-block;
+	font-weight: normal;
+}
+
+.conteiner{
+	display: flex;
+	margin: 0 auto;
+	max-width: 970px;
+	min-height: 455px;
+	border: 1px solid #d4d4d4;
+	position: relative;
+}
+
+.card{
+	width: 25%;
+	text-align: center;
+	position: relative;
+	border-right: 1px solid #d4d4d4;
+}
+
+.card:last-child{
+	border-right: none;
+}
+
+.category{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+hr{
+	height: 1px;
+	background-color: #d4d4d4;
+	border: none;
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.card-title{
+	font-weight: bold;
+	color: #009de1;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.bage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -35px;
+	right: 10px;
+	background: #009de1;
+	color: white;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 3px solid white;
+	font-size: 0.7rem;
+	min-height: 16px;
+}
+
+.bage_new{
+	background-color: #86b022;
+}
+
+.bage:empty{
+	display: none;
+}
+
+.swipe{
+	position: absolute;
+	cursor: pointer;
+	color: #d4d4d4;
+	font-weight: bold;
+	text-align: center;
+	line-height: 26px;
+	top: 85px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 2px solid #d4d4d4;
+	background-color: white;
+}
+
+.swipe__l{
+	left: -15px;
+}
+.swipe__r{
+	right: -15px;
+}
+
+.card-btn{
+	display: flex;
+	height: 40px;
+	width: 140px;
+	background-color: #f0e524;
+	color: black;
+	border: 1px solid #f0e524;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.card-btn__new{
+	color: white;
+	background-color: #cc3399;
+	border: 1px solid #cc3399;
+	cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
