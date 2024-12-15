@@ -1,0 +1,89 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+.field{
+	display: grid;
+	grid-template-columns: repeat(6, 16.555555%); 
+	grid-template-rows: repeat(12, 8.333333%);
+	height: 100vw;
+
+	border: 1px solid blue;
+}
+
+.base{
+	grid-column-start: 1;
+	grid-column-end:5;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	background-image: url('https://st5.depositphotos.com/5899036/75365/i/1600/depositphotos_753653546-stock-photo-carpathians-end-summer-agricultural-lands.jpg');
+	background-position: center;
+}
+.wall{
+	grid-column-start: 5;
+	grid-column-end:7;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	background-image: url('https://imglife.pravda.com.ua/images/doc/d/d/dd75523-dyka-pryroda-last.jpg');
+	background-position: center;
+}
+.wood{
+	grid-column-start: 1;
+	grid-column-end:4;
+	grid-row-start: 5;
+	grid-row-end: 9;
+	background-image: url('https://st4.depositphotos.com/1009051/21028/i/1600/depositphotos_210283802-stock-photo-summer-landscape-of-switzerland-rural.jpg');
+	background-position: center;
+}
+.steel{
+	grid-column-start: 4;
+	grid-column-end:7;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-image: url('https://st5.depositphotos.com/5899036/65029/i/1600/depositphotos_650292238-stock-photo-top-view-solar-panels-yard.jpg');
+	background-position: center;
+}
+.tank-enemy{
+	grid-column-start: 4;
+	grid-column-end:7;
+	grid-row-start: 7;
+	grid-row-end: 9;
+	background-image: url('https://st5.depositphotos.com/5899036/75044/i/1600/depositphotos_750447370-stock-photo-carpathian-mountain-landscape-yard-farm.jpg');
+	background-position: center;
+}
+.tank-player{
+	grid-column-start: 1;
+	grid-column-end:3;
+	grid-row-start: 9;
+	grid-row-end: 13;
+	background-image: url('https://st2.depositphotos.com/5899036/9255/i/950/depositphotos_92556274-stock-photo-green-trail-in-the-the.jpg');
+	background-position: center;
+}
+.else{
+	grid-column-start: 3;
+	grid-column-end:7;
+	grid-row-start: 9;
+	grid-row-end: 13;
+	background-image: url('https://st2.depositphotos.com/1422604/7193/i/950/depositphotos_71938347-stock-photo-mountain-landscape-in-autumn-morning.jpg');
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
